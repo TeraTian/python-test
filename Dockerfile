@@ -7,7 +7,7 @@ ADD . .
 
 RUN pip install -r requirements.txt
 
-RUN chmod +x /app/start.sh
+#RUN chmod +x /app/start.sh
 
 #ENTRYPOINT ["/app/start.sh"]
 CMD python3 app.py
